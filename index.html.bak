@@ -230,7 +230,7 @@ var itemNameInput = document.getElementById("itemName");
 var shippingFee = document.getElementById("shippingFee");
 var tshirtType = document.getElementById("tshirtType");
 var tshirtSize = document.getElementById("tshirtSize");
-var tshirtType = document.getElementById("tshirtType");
+var quantity = document.getElementById("quantity");
 
 var userNameInput = document.getElementById("userName");
 var userAddressInput = document.getElementById("userAddress");
@@ -270,6 +270,8 @@ loadingAnimation.style.display = "block";
 	
 	shipping: shippingFee.value,
 	tshirtType: tshirtType.value,
+	quantity: quantity.value,
+	tshirtSize: tshirtSize.value,
 	
     userName: userNameInput.value,
     userAddress: userAddressInput.value,
